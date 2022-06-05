@@ -1,0 +1,46 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+}
+body{
+    background-image: url(./imagenes/Fondo\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body:before{
+    content: "";
+    width: 101%;
+    min-height: 100%;
+    position: absolute;
+    background: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    opacity: 0.5;
+    z-index: -1;
+}
+#subtitulo{
+    margin-bottom: 1rem;
+}
+#logo{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#listaNombres{
+    max-width: 100%;
+    text-align: center;
+    
+    margin-top: 1rem;
+}
+#listaDinero{
+    max-width: 100%;
+    text-align: center;
+    
+    margin-top: 1rem;
+}
+
+
+#totalDinero,#totalTitulo,#individual,#individualDinero{
+    text-align: center;
+}
